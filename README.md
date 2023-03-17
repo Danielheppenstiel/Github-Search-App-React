@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Github Pages](https://danielheppenstiel.github.io/Tic-Tac-Toe-Game/)
+- Live Site URL: [Netlify](https://gregarious-dragon-a3ff0c.netlify.app)
 
 ## My process
 
