@@ -22,8 +22,8 @@ body {
 main {
   display: flex;
   place-content: center;
-  margin-top: 5%;
   max-height: 100%;
+  overflow: auto;
 }
 
 /* HEADER / NAV */
@@ -201,7 +201,7 @@ nav {
 @media screen and (max-width: 900px) {
   
   .main-display {
-    height: 600px  !important;
+    height: 600px;
     grid-template-columns: 1fr;
   }
 
@@ -343,7 +343,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 60px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -359,3 +359,4 @@ a {
 .footer-info h4 {
   color: var(--white);
 }
+
