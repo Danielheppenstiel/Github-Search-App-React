@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { userContext } from "../../context/UserContext"
 import placeholder from './assets/placeholder.png';
+import Octocat from './assets/octocat.png';
 import { MdLocationOn as LocationPin } from 'react-icons/md';
 import { BsTwitter as TwitterIcon } from 'react-icons/bs';
 import { BiLinkAlt as LinkIcon } from 'react-icons/bi';
@@ -33,7 +34,7 @@ function MainDisplay() {
       <section className="main-display">
         {/* USER IMAGE */}
         <div className="display-img-container">
-          <img className="display-img" src={user && user.avatar_url || placeholder} alt="" />
+          <img className="display-img" src={user && user.avatar_url || Octocat} alt="" />
         </div>
         {/* USER INFORMATION */}
         <div className="information-container">
